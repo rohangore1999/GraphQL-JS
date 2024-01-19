@@ -66,3 +66,17 @@ export const resolvers = {
 //     }
 //   }
 // }
+
+// ---------------------------------------------------------
+
+// mutation Mutation($title: String!, $authorId: ID!) {
+//   addBook(title: $title, authorId: $authorId) {
+//     title
+//   }
+// }
+
+// ARGS
+// {
+//   "title": "What If?",
+//   "authorId": "1"
+// }
